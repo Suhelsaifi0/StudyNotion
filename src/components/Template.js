@@ -15,8 +15,7 @@ const Template = ({
     <div className="w-full min-h-screen bg-richblack-900 flex items-center justify-center px-4">
       
       <div className="w-full max-w-[1100px] flex flex-col lg:flex-row items-center gap-10">
-        
-        {/* LEFT : FORM */}
+      
         <div className="w-full max-w-[380px] text-white">
           <h1 className="text-2xl sm:text-3xl font-semibold">{title}</h1>
 
@@ -32,21 +31,18 @@ const Template = ({
             <LoginForm setIsLoggedIn={setIsLoggedIn} />
           )}
 
-          {/* OR */}
           <div className="flex items-center my-6 gap-2">
             <div className="flex-1 h-px bg-richblack-700"></div>
             <p className="text-xs text-richblack-400">OR</p>
             <div className="flex-1 h-px bg-richblack-700"></div>
           </div>
 
-          {/* GOOGLE */}
           <button className="w-full flex items-center justify-center gap-2 py-3 border border-richblack-700 rounded-lg text-sm">
             <FcGoogle size={20} />
             Continue with Google
           </button>
         </div>
 
-        {/* RIGHT : IMAGE (Desktop only) */}
         <div className="hidden lg:flex relative w-full max-w-[450px] justify-center">
           <img src={frameImage} className="w-full max-w-[420px]" />
           <img

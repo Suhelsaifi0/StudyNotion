@@ -39,7 +39,6 @@ const SignupForm = ({ setIsLoggedIn }) => {
       onSubmit={submitHandler}
       className="w-full max-w-[360px] mx-auto mt-6 flex flex-col gap-4 px-2"
     >
-      {/* First Name */}
       <input
         type="text"
         name="firstName"
@@ -50,7 +49,6 @@ const SignupForm = ({ setIsLoggedIn }) => {
         required
       />
 
-      {/* Last Name */}
       <input
         type="text"
         name="lastName"
@@ -61,7 +59,6 @@ const SignupForm = ({ setIsLoggedIn }) => {
         required
       />
 
-      {/* Email */}
       <input
         type="email"
         name="email"
@@ -72,7 +69,6 @@ const SignupForm = ({ setIsLoggedIn }) => {
         required
       />
 
-      {/* Password */}
       <input
         type="password"
         name="password"
@@ -83,7 +79,6 @@ const SignupForm = ({ setIsLoggedIn }) => {
         required
       />
 
-      {/* Confirm Password */}
       <input
         type="password"
         name="confirmPassword"
@@ -94,7 +89,6 @@ const SignupForm = ({ setIsLoggedIn }) => {
         required
       />
 
-      {/* Button */}
       <button
         type="submit"
         className="w-full mt-2 py-3 bg-yellow-50 text-richblack-900 rounded-md font-semibold active:scale-95 transition"
