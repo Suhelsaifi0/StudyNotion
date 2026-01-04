@@ -1,6 +1,6 @@
 ## Tech Used
 - HTML
-- CSS
+- TailWind-CSS
 - JavaScript
 - Reactjs
  
